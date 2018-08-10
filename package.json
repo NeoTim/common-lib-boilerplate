@@ -1,0 +1,26 @@
+{
+  "name": "common-lib-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/forsigner/common-lib-boilerplate.git"
+  },
+  "author": "forsigner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/forsigner/common-lib-boilerplate/issues"
+  },
+  "homepage": "https://gitlab.com/forsigner/common-lib-boilerplate#README",
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^3.0.1"
+  }
+}
