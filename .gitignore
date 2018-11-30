@@ -4,6 +4,7 @@ node_modules/
 .idea/
 .DS_Store
 *.swp
+
+.rpt2_cache/
 .history
 dist/
-lib/

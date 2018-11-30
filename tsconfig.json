@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./lib",
+    "outDir": "./dist",
     "target": "es5",
     "lib": ["es7", "dom"],
     "experimentalDecorators": true,
@@ -15,5 +15,5 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true
   },
-  "exclude": ["node_modules", "lib"]
+  "exclude": ["node_modules", "dist", "tests"]
 }
